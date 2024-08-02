@@ -1,11 +1,11 @@
 Employee Management System
 Overview
-The Employee Management System is a Java-based application designed to manage employee data, including details about employees, departments, and projects. It utilizes JPA and Hibernate for object-relational mapping with a MySQL database. This project demonstrates the use of ORM frameworks and relational database management to build a scalable and maintainable application.
+The Employee Management System is a Java-based application designed to manage employee data, including details about employees, departments, and projects. It utilizes JPA and Hibernate for object-relational mapping with a MySQL database. This project demonstrates using ORM frameworks and relational database management to build a scalable and maintainable application.
 
 Features
 Manage employees, departments, and projects
-One-to-Many relationship between departments and employees
-Many-to-Many relationship between employees and projects
+One-to-many relationship between departments and employees
+Many-to-Many relationships between employees and projects
 Basic CRUD operations
 Technologies Used
 Java 8: Programming language
@@ -30,7 +30,7 @@ Create a new database in MySQL named employee_db. Adjust the hibernate.cfg.xml f
 
 Configure Hibernate
 
-Ensure the hibernate.cfg.xml file in src/main/resources is correctly configured with your database connection details.
+Could you make sure the hibernate.cfg.xml file in src/main/resources is correctly configured with your database connection details?
 
 Build the Project
 
@@ -62,5 +62,5 @@ Contributions are welcome! If you have suggestions, improvements, or bug fixes, 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contact
+Contact 
 For any questions or further information, please contact Your Name.
